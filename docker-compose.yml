@@ -6,9 +6,3 @@ services:
       - '5000:5000'
   redis:
     image: 'redis:alpine'
-  ubuntu-upstart:
-    image: ubuntu-upstart
-  solr:
-    image: solr
-    ports:
-      - '8983'
